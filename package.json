@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://chedyakhichi.github.io/premium-tunisian-wedding-invitation",
-
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "clsx": "2.1.1",
     "framer-motion": "^12.39.0",
@@ -23,7 +23,6 @@
     "tailwind-merge": "3.4.0",
     "yet-another-react-lightbox": "^3.32.0"
   },
-
   "devDependencies": {
     "@tailwindcss/vite": "4.1.17",
     "@types/node": "22.19.17",
