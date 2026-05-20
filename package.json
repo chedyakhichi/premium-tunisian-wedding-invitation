@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+  "homepage": "https://chedyakhichi.github.io/premium-tunisian-wedding-invitation",
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+ 
+},
+
   "dependencies": {
     "clsx": "2.1.1",
     "framer-motion": "^12.39.0",
